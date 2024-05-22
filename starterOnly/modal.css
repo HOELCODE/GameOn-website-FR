@@ -9,7 +9,27 @@
   padding: 0;
 }
 /* Landing Page */
+/*AJOUT*/
+.icon {
+  color: #ff0000 !important;
+  background-color: #ffffff !important;
+}
 
+.icon:hover {
+  color: #ff0000 !important;
+  background-color: #ffffff !important;
+}
+
+.icon.active {
+  color: #ff0000 !important;
+  background-color: #ffffff !important;
+}
+
+.main-navbar span.active {
+  border-bottom: 1px solid white;
+}
+
+/*AJOUT*/
 body {
   margin: 0;
   display: flex;
@@ -40,10 +60,11 @@ img {
 .main-navbar {
     float: right;
 }
+
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #ff0000;
   text-align: center;
   padding: 12px 12px;
   margin: 5px;
@@ -62,6 +83,7 @@ img {
   background-color: #ff0000;
   color: #ffffff;
   border-radius: 15px;
+  border-bottom: 1px solid #ffffff;
 }
 
 .topnav .icon {
@@ -97,7 +119,6 @@ img {
   .topnav a.icon {
     float: right;
     display: block;
-    margin-top: -15px;
   }
 } 
 
@@ -107,12 +128,8 @@ main {
   color: black;
   padding-top: 0.5vw;
   padding-left: 2vw;
-  padding-right: 2vw;
-  margin: 1px 20px 15px;
   border-radius: 2rem;
   text-align: justify;
-
-
 }
 
 .modal-btn {
@@ -497,10 +514,12 @@ footer {
   .hero-headline {
     font-size: 4.5rem;
     white-space: normal;
+    text-align: start;
   }
   .hero-text {
     width: unset;
     font-size: 1.5rem;
+    text-align: start;
   }
   .hero-img img {
     border-radius: 10px;
