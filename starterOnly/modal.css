@@ -131,7 +131,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1004px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -143,16 +143,20 @@ img {
     padding-right: 4vw !important;
   }
 
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1004px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
+  .topnav.topnav.responsive .main-navbar {
+    width: 100%;
+  }
+  
   .topnav.responsive a {
     float: none;
     display: block;
@@ -532,6 +536,7 @@ input[data-error]::after {
   height: 100%;
   display: block;
   padding: 0;
+  object-fit: cover;
 }
 .copyrights {
   color: #fe142f;
