@@ -131,7 +131,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 1004px) {
+@media screen and (max-width: 1109px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -145,7 +145,7 @@ img {
 
 }
 
-@media screen and (max-width: 1004px) {
+@media screen and (max-width: 1109px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -184,6 +184,7 @@ main {
   color: black;
   padding-top: 0.5vw;
   padding-left: 2vw;
+  padding-right: 2vw;
   border-radius: 2rem;
   text-align: justify;
 }
@@ -553,7 +554,7 @@ footer {
   padding-right: 2vw;
   margin: 0 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1109px) {
   .hero-section {
     display: block;
     box-shadow: unset;
