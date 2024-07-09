@@ -138,6 +138,11 @@ img {
     display: block;
   }
 
+  .topnav a.icon:hover {
+    background-color: #ff0000;
+    color: #FFF;
+  }
+
   main {
     padding-left: 4vw !important;
     padding-right: 4vw !important;
@@ -167,8 +172,6 @@ img {
     margin-top: 60px;
   }
 }
-
-
 
  @media screen and (max-width: 540px) {
   .topnav a {display: none;}
